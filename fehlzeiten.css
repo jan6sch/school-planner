@@ -1,0 +1,433 @@
+.fehlzeitenbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+.fehlzeitenh1, .fehlzeitenh2 {
+    text-align: center;
+    color: #333;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.fehlzeitentable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.fehlzeitenth, .fehlzeitentd {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.fehlzeitenth {
+    background-color: #28a745;
+    color: white;
+}
+.fehlzeitenfrom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="file"], button {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+}
+.fehlzeitenEmtytd{
+    text-align: center;
+    padding-top: 5vh;
+}
+@media (max-width: 600px) {
+    .fehlzeitenth, .fehlzeitentd {
+        font-size: 14px;
+    }
+    .fehlzeitenh1, .fehlzeitenh2 {
+        font-size: 1.5em;
+    }
+}
+
+.SFehlzeitenAlleBody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+.SFehlzeitenAlleH1, .SFehlzeitenAlleH2 {
+    text-align: center;
+    color: #333;
+}
+.SFehlzeitenAlleTableResponsive {
+    overflow-x: auto;
+}
+.SFehlzeitenAlleTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.SFehlzeitenAlleTh, .SFehlzeitenAlleTd {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.SFehlzeitenAlleTh {
+    background-color: #28a745;
+    color: white;
+}
+.red-text {
+    color: red;
+}
+
+body.SAbwesenheitBody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+
+h1.SAbwesenheitH1, h2.SAbwesenheitH2 {
+    color: #333;
+}
+
+a.SAbwesenheitLink {
+    text-decoration: none;
+    color: #007BFF;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+form.SAbwesenheitForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label.SAbwesenheitLabel {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select.SAbwesenheitSelect, 
+input[type="number"].SAbwesenheitInput, 
+textarea.SAbwesenheitTextarea, 
+input[type="file"].SAbwesenheitFile, 
+button.SAbwesenheitButton {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+button.SAbwesenheitButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.SAbwesenheitButton:hover {
+    background-color:rgb(33, 134, 56);
+}
+
+table.SAbwesenheitTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th.SAbwesenheitTh, td.SAbwesenheitTd {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th.SAbwesenheitTh {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    body.SAbwesenheitBody {
+        padding: 10px;
+    }
+
+    form.SAbwesenheitForm {
+        padding: 15px;
+    }
+
+    button.SAbwesenheitButton {
+        padding: 12px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.student-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.student-row label {
+    font-weight: bold;
+}
+
+.student-row .student-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.student-row input[type="radio"] {
+    margin-right: 5px;
+}
+
+.student-row input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#anwesenheitbuttontop{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#anwesenheitbuttontop:hover{
+    background-color: #0056b3;
+}
+
+.image-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.image-button:hover {
+    background-color: #218838;
+}
+
+.labelanwesenheit{
+    padding-top: 1vw;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .student-row {
+        flex-direction: column;
+    }
+
+    .student-row .student-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .student-row input[type="number"] {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    #anwesenheitbuttontop{
+        width: 90%;
+    }
+}
+
+.lehrerFehlzeitenh1 {
+    text-align: center;
+    color: #333;
+}
+.lehrerFehlzeitenTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.lehrerFehlzeitenTable th, .lehrerFehlzeitenTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.lehrerFehlzeitenTable th {
+    background-color: #28a745;
+    color: white;
+}
+.lehrerFehlzeitenButton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.lehrerFehlzeitenButton:hover {
+    background-color: #0056b3;
+}
+
+.lehrerFehlzeitenButton:disabled {
+    background-color: #ccc; /* Graue Farbe für deaktivierte Buttons */
+    cursor: not-allowed; /* Zeiger ändern */
+}
+
+.lehrerFehlzeitenCheckbox {
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    .lehrerFehlzeitenTable {
+        display: block;
+        overflow-x: auto;
+    }
+    .lehrerFehlzeitenTable th, .lehrerFehlzeitenTable td {
+        white-space: nowrap;
+    }
+}
+
+/* CSS für das Filterformular */
+#filterForm {
+    display: none; /* Standardmäßig ausgeblendet */
+    margin-bottom: 20px;
+}
+
+.unterrichtedoctitle {
+    text-align: center;
+    color: #333;
+}
+
+.unterrichtedoctable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.unterrichtedoctable th, .unterrichtedoctable td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ddd;
+}
+
+.unterrichtedoctable th {
+    background-color: #28a745;
+    color: white;
+}
+
+.unterrichtedocbutton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.unterrichtedocbutton:hover {
+    background-color: #0056b3;
+}
+
+.unterrichtedocbutton:disabled {
+    background-color: #ccc; /* Graue Farbe für deaktivierte Buttons */
+    cursor: not-allowed; /* Mauszeiger wird zu einem Verbotssymbol */
+}
+
+.unterrichtedocstatus {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.unterrichtedocchecked {
+    color: green;
+}
+
+.unterrichtedocnot-checked {
+    color: red;
+}
+
+.unterrichtedocstrikethrough {
+    text-decoration: line-through;
+}
+
+.unterrichtedochighlight {
+    background-color: yellow;
+}
+
+@media (max-width: 600px) {
+    .unterrichtedoctable {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .unterrichtedoctable th, .unterrichtedoctable td {
+        white-space: nowrap;
+    }
+}
+
+/* CSS für das Filterformular */
+#filterForm {
+    display: none; /* Standardmäßig ausgeblendet */
+    margin-bottom: 20px;
+}

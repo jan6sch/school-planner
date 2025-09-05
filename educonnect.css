@@ -1,0 +1,104 @@
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 120px;
+}
+
+h1 {
+    color: #000080;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav-box {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: #4876FF;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-box a:hover {
+    background-color: #B0E2FF;
+}
+
+.nav-box .active {
+    background-color: #A4D3EE;
+}
+
+.hinzufügen {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    resize: none;
+}
+
+
+.notenseite input[type="submit"],
+.notenseite input[type="reset"] {
+    background-color: #4876FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #36648B;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}

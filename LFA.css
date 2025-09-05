@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+
+.fehlzeitenTitle {
+    text-align: center;
+    color: #333;
+}
+
+.fehlzeitenTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.fehlzeitenTable th, .fehlzeitenTable td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ddd; 
+}
+
+.fehlzeitenTable th {
+    background-color: #28a745;
+    color: white;
+}
+
+.fehlzeitenButton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.fehlzeitenButton:hover {
+    background-color: #0056b3;
+}
+
+.fehlzeitenActionButton {
+    padding: 5px 10px;
+    background-color: #dc3545; /* Rot für Löschen */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fehlzeitenActionButton:hover {
+    background-color: #c82333; /* Dunkleres Rot beim Hover */
+}
+
+.fehlzeitenActionButton:disabled {
+    background-color: #ccc; /* Graue Farbe für deaktivierte Buttons */
+    cursor: not-allowed; /* Mauszeiger wird zu einem Verbotssymbol */
+}
+
+.entschuldigenButton {
+    padding: 5px 10px;
+    background-color: #ffc107; /* Gelb für Entschuldigen */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entschuldigenButton:hover {
+    background-color: #e0a800; /* Dunkleres Gelb beim Hover */
+}
+
+.entschuldigenButton:disabled {
+    background-color: #ccc; /* Graue Farbe für deaktivierte Buttons */
+    cursor: not-allowed; /* Mauszeiger wird zu einem Verbotssymbol */
+}
+
+@media (max-width: 600px) {
+    .fehlzeitenTable {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .fehlzeitenTable th, .fehlzeitenTable td {
+        white-space: nowrap;
+    }
+}

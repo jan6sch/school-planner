@@ -1,0 +1,203 @@
+body {
+    background-color: #FFFFFF;
+    color: #2E2E2E;
+    font-family: Arial, sans-serif;
+}
+
+.calendar-container {
+    width: 80%;
+    margin: 140px auto 0; 
+    padding: 20px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4876FF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+th, td {
+    width: 14%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    position: relative;
+}
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+td {
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+    background-color: white;
+}
+td.today {
+    background-color: #ffeb3b;
+}
+
+td.exam {
+    background-color: #4876FF;
+    color: #FFFFFF;
+}
+td.has-exam {
+    background-color: #488eff;
+}
+.add-exam-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+}
+
+.add-exam-form label {
+    display: block;
+    margin-top: 10px;
+    color: #2E2E2E;
+}
+
+.add-exam-form input, .add-exam-form select, .add-exam-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.add-exam-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.add-exam-form .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.add-exam-form .checkbox-group div {
+    flex: 1 1 30%;
+    display: flex;
+    align-items: center;
+}
+
+.add-exam-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4876FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-exam-form button:hover {
+    background-color: #36648B;
+}
+
+.exam-details {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; 
+}
+
+.exam:hover .exam-details {
+    display: block;
+    
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+td:hover .tooltip {
+    display: block;
+}
+
+.exam-info {
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #a11a11;
+    border: 1px solid #f5c6cb;
+}
+
+.current-datetime {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3b3b3b;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.month-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.month-navigation a {
+    color: #4876FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.month-navigation a:hover {
+    text-decoration: underline;
+}
+
+.month-navigation span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
